@@ -124,7 +124,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Recalculate heights on window resize for any open panels
   window.addEventListener('resize', () => {
-    allCards.forEach(card => {
+    allCards.forEach(card => 
+      {
       const info = card.querySelector('.order-info');
       if (!info) return;
 
